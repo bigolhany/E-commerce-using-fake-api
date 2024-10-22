@@ -1,0 +1,71 @@
+/* Global Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  .font-header {
+    font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Header Logo Styling */
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  /* Product Card Styling */
+  .card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-price {
+    color: #28a745;
+    font-size: 1.1rem;
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 40px;
+  }
+  
+  footer h5 {
+    margin-bottom: 15px;
+  }
+  
+  footer p, footer ul {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #17a2b8;
+  }
+  
+  /* Responsive Grid */
+  @media (max-width: 768px) {
+    .card img {
+      height: 150px;
+    }
+  }
+  
